@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "babel-node sagas.spec.js | tap-spec",
+    "test1": "babel-node sagas.spec.1.js | tap-spec",
     "start": "budo main.js:build.js --dir ./ --verbose  --live -- -t babelify"
   },
   "repository": {
